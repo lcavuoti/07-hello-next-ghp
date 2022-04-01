@@ -2,11 +2,13 @@
   "name": "07-hello-next-ghp",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://lcavuoti.github.io/07hello-next-ghp",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "next": "12.1.4",
@@ -15,6 +17,7 @@
   },
   "devDependencies": {
     "eslint": "8.12.0",
-    "eslint-config-next": "12.1.4"
+    "eslint-config-next": "12.1.4",
+    "gh-pages": "^3.2.3"
   }
 }
