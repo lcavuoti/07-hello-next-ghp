@@ -2,13 +2,12 @@
   "name": "07-hello-next-ghp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://lcavuoti.github.io/07hello-next-ghp",
+  "homepage": ".",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "deploy": "gh-pages -d .next/server/pages"
+    "lint": "next lint"
   },
   "dependencies": {
     "next": "12.1.4",
